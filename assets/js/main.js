@@ -40,7 +40,7 @@ function isValid(pesoReal,alturaReal){
 }
 function result(IMC){
     if(IMC < 18.5){
-        coloca(`abaixo do peso`,1)
+        coloca(`abaixo do peso`,1,IMC)
     }else if(IMC >= 18.5 && IMC <= 24.9){
         coloca(`peso normal`,2,IMC)
 
