@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo usado</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <h2>Tabela</h2>
+        <div class="flex">
+        <table>
+            <tr>
+                <th>IMC</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Menos do que 18,5</td>
+                <td>abaixo do peso</td>
+            </tr>
+            <tr>
+                <td>entre 18,5 e 24,9</td>
+                <td>peso normal</td>
+            </tr>
+            <tr>
+                <td>entre 25 e 29,9</td>
+                <td>sobrepeso</td>
+            </tr>
+            <tr>
+                <td>entre 30 e 34,9</td>
+                <td>grau de obesidade 1</td>
+            </tr>
+            <tr>
+                <td>entre 35 e 39,9</td>
+                <td>grau de obesidade 2</td>
+            </tr>
+            <tr>
+                <td>mais do que 40</td>
+                <td>grau de obesidade 3</td>
+            </tr>
+          
+        </table>
+        <div class="resultado">
+            resultado
+        </div>
+    </div>
+
+        <form action="" class="formulario">
+            <h1>Calcule o IMC</h1>
+            <label for="">Peso (ex: 80)</label>
+            <input type="text" name="peso" id="peso" class="peso">
+            <label for="">Altura (ex: 1.70)</label>
+            <input type="text" name="altura" id="altura" class="altura">
+            <div class="erro"></div>
+            <button class="btn">calcular</button>
+        </form>
+       
+    </section>
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
